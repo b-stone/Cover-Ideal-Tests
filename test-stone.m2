@@ -44,7 +44,7 @@ end
 
 restart
 needsPackage"EdgeIdeals"
-t=10 -- Dont for get to save!
+t=3 -- Dont for get to save!
 load"test-stone.m2"
 m
 n = 2
