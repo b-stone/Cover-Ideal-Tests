@@ -1,0 +1,13 @@
+  #PBS -N hextest  
+  #PBS -l nodes=1:ppn=4    
+  #PBS -l mem=1GB 
+  #PBS -l file=1000gb   
+  #PBS -q una   
+  #PBS -M crgibbon@hamilton.edu 
+  #PBS -m bea        
+  #PBS -j oe         
+  #PBS -l walltime=24:00:00
+  #PBS -r n
+  #
+              
+  date;uptime;echo "hello";date
