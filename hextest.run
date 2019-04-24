@@ -9,6 +9,5 @@
   #PBS -l walltime=24:00:00
   #PBS -r n
   #
-  cd $PBS_O_WORKDIR
               
   date;uptime;echo "hello";date
